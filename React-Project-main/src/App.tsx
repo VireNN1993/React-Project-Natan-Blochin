@@ -9,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
-    <BrowserRouter basename="/React-Project-main-main">
+    <BrowserRouter basename="/React-Project-main-main-main">
       <div className="flex min-h-screen flex-col bg-gray-50 dark:bg-gray-900">
         <AuthProvider>
           {/* Fixed Navbar at the top */}
