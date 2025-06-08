@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://VireNN1993.github.io/React-Project-main-main-main",
+  "homepage": "https://VireNN1993.github.io/React-Project-Natan-Blochin",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
