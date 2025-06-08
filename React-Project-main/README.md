@@ -82,7 +82,41 @@ A modern, responsive business card platform built with React, TypeScript, and Ta
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 - `npm run format` - Format code with Prettier
-- `npm run deploy` - Deploy to GitHub Pages
+- `npm run deploy` - Deploy to GitHub Pages (manual method)
+
+## Deployment
+
+### GitHub Pages (Automatic)
+
+The project is configured for automatic deployment to GitHub Pages using GitHub Actions:
+
+1. **Setup**: Go to your repository Settings → Pages → Source → Select "GitHub Actions"
+2. **Deploy**: Push to `main` or `master` branch to trigger automatic deployment
+3. **Access**: Your site will be available at `https://[username].github.io/React-Project-main-main/`
+
+The deployment workflow (`.github/workflows/deploy.yml`) automatically:
+
+- Installs dependencies
+- Builds the project
+- Deploys to GitHub Pages
+
+### Manual Deployment
+
+For manual deployment:
+
+```bash
+npm run build && npm run deploy
+```
+
+### SPA Routing Support
+
+The project includes GitHub Pages SPA routing support:
+
+- **404.html** handles direct route access
+- **SPA script** in index.html manages client-side routing
+- **Base path** configuration for proper asset loading
+
+For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md)
 
 ## API Integration
 
