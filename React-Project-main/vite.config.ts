@@ -6,6 +6,6 @@ import flowbiteReact from "flowbite-react/plugin/vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/React-Project-Natan-Blochin/",
+  base: "/React-Project-Natan-Blochin-314163452/",
   plugins: [react(), tailwindcss(), flowbiteReact()],
 });
